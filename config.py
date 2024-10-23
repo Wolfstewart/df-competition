@@ -1,0 +1,17 @@
+
+
+LLM_API = 'http://192.168.1.180:9997/v1/chat/completions'
+LLM_MODEL_NAME = 'qwen-7b'
+
+EMBEDDING_API = 'http://192.168.1.180:9997/v1/embeddings'
+EMBEDDING_MODEL_NAME = 'conan'
+
+
+# VECTOR 向量数据库相关信息
+VECTOR_DB_HOST = "192.169.1.151"
+VECTOR_COLLECTION = "rule"
+PORT = 6333
+GRPC_PORT = 6334
+VECTOR_PASSWD = "123456"
+EMBEDDING_DIMS = 1792
+
